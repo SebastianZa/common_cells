@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+### Added
+- `isochronous_4phase_handshake`: Isochronous clock domain crossing cutting all paths using a 4-phase handshake.
+
+### Changed
+- Changed `isochronous_spill_register_tb` to `isochronous_crossing_tb` also covering the `isochronous_4phase_handshake`
+  module.
 
 ## 1.19.0 - 2020-05-25
 ### Added
